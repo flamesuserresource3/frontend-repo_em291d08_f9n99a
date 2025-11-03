@@ -1,0 +1,37 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 263 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.170:3000/
+Error:   Failed to scan for dependencies from entries:
+  /home/workspace/src/App.jsx
+/home/workspace/src/Test.jsx
+/home/workspace/src/main.jsx
+/home/workspace/src/components/AboutAndSkills.jsx
+/home/workspace/src/components/Hero.jsx
+/home/workspace/src/components/Navbar.jsx
+/home/workspace/src/components/ProjectsAndContact.jsx
+
+  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mUnterminated string literal[0m
+
+    src/components/ProjectsAndContact.jsx:131:428:
+[37m      131 │ ...-3.86-2.35-3.86-2.35 0-2.71 1.84-2.71 3.74V24h-4V8z'/></svg>" />[32m[37m
+          ╵                                                                    [32m^[0m
+
+
+    at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+    at /home/workspace/node_modules/esbuild/lib/main.js:945:25
+    at runOnEndCallbacks (/home/workspace/node_modules/esbuild/lib/main.js:1315:45)
+    at buildResponseToResult (/home/workspace/node_modules/esbuild/lib/main.js:943:7)
+    at /home/workspace/node_modules/esbuild/lib/main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/home/workspace/node_modules/esbuild/lib/main.js:954:54)
+    at handleRequest (/home/workspace/node_modules/esbuild/lib/main.js:647:17)
+    at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:672:7)
+    at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+5:04:55 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/ProjectsAndContact.jsx:131:428: ERROR: Unterminated string literal
